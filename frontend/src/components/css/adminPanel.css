@@ -1,0 +1,19 @@
+*
+{
+    text-decoration: none;
+}
+.links div
+{
+    /* border: 2px solid red; */
+    color: white;
+    margin: 10px 0px;
+    background-color: rgb(255,255,255,0.3);
+    padding: 5px 5px;
+    border-radius: 10px;
+    transition: font-weight 0.3s;
+}
+.links div:hover
+{
+    cursor: pointer;
+    font-weight: bold;
+}

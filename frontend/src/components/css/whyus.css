@@ -1,0 +1,33 @@
+.lists li{
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0, 0.2);
+    transition: transform 1s;
+}
+.lists li:hover{
+    transform: scale(1.05);
+
+}
+
+/* @keyframes animateGradient {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+  
+  .lists
+  {
+      backdrop-filter: blur(100px);}
+.mainlists{
+    /* width: 200px;
+    height: 200px; */
+    /* background: linear-gradient(to bottom, rgb(46, 13, 89) 0%, black 50%, rgb(68, 19, 68) 100%);
+    background-size: 100% 200%; /* Set background size to cover the entire element */
+    /* animation: animateGradient 3s infinite; /* Change color every 3 seconds */
+  /* } */ 
+  

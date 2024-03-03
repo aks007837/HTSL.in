@@ -1,0 +1,70 @@
+.mains
+{
+    height:max-content;
+}
+#mains-contact
+{
+    height: 100% !important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contact-heading
+{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.outer
+{
+    /* border: 2px solid red; */
+    width: 50%;
+    /* border: 2px solid red; */
+    margin: 15px 0px;
+    background-color: rgb(0,0,0,0.7);
+    border-radius: 3%;
+}
+@media (max-width: 880px) {
+    .outer
+    {
+        width: 80%;
+    }
+    #contact-div
+{
+    display: none;
+}
+}
+.top-content
+{
+    /* border: 2px solid yellow; */
+    /* padding: 10px; */
+}
+.bottom-content
+{
+    /* border: 2px solid green; */
+    width: 80%;
+    margin: 10px;
+    padding: 15px;
+}
+#contact-div
+{
+}
+.contact-img
+{
+    height: 50ch;
+    filter: drop-shadow(10px 7px 20px orange);
+}
+.submit-btn
+{
+    background-color: rgb(85, 29, 176);
+    color: white;
+    width: 150px;
+    transition: background-color 0.5s ease-in-out;
+    padding: 8px;
+}
+.submit-btn:hover
+{
+    background-color: rgb(41, 15, 82);
+
+}

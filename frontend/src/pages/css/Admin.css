@@ -1,0 +1,66 @@
+.admin {
+    display: flex;
+    min-height: 80vh;
+
+  }
+  
+  .admin-left {
+    padding: 3%;
+    width: 20vw;
+    background: linear-gradient(to bottom, #3423ef, #3dae9d);
+    color: white;
+    border-right: 2px solid white;
+}
+.admin-left Link 
+{
+    text-decoration: none;
+}
+.admin-right {
+    color: white;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    /* overflow: hidden; */
+  }
+  @media (max-width: 770px) {
+    .admin-left{
+        width: 33%;
+    }
+  }
+/* Add this style to your Admin.css file */
+
+/* Add this style to your Admin.css file */
+
+.admin-right {
+    overflow: hidden;
+  }
+  
+  @keyframes typewriter {
+    0% {
+      width: 0;
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      width: 100%;
+      opacity: 0;
+    }
+  }
+  
+  .admin-right::after {
+    content: "Welcome Dear Admin";
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 5s steps(40) infinite;
+  }
+  

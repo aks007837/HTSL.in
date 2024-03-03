@@ -1,0 +1,72 @@
+.mainlistss
+{
+}
+.slider
+{
+    /* border: 2px solid red; */
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    margin: 15px;
+}
+.slider-head
+{
+    /* border: 2px solid yellow; */
+    width: 40%;
+    height: 50%;
+}
+.slider-title
+{
+    /* border: 2px solid red; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+.title-desc
+{
+    line-height: 40px;
+    border-left: 4px solid gray;
+    border-radius: 10%;
+    width: fit-content;
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding: 0px 20px;
+    margin: 5px 25px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+    transition: transform 0.5s ease-in-out;
+}
+.title-desc:hover
+{
+    transform: scale(1.05);
+    /* text-decoration: underline; */
+    text-decoration-color: aliceblue;
+}
+.slider-desc
+{
+    color: white;
+    padding: 4px;
+    margin-top: 20px;
+    text-align: center;
+    padding-right: 15px;
+}
+.slider-image
+{
+    width: 70%;
+    background-color: rgb(223, 224, 226, 0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-image img
+{
+    height: 100% !important;
+    object-fit: contain;
+}

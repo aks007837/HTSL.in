@@ -1,0 +1,118 @@
+.containers
+{
+    /* background-color: rgba(239, 170, 65, 0.714); */
+    display: flex;
+    flex-direction: column;
+    padding: 3% 10%;
+    color: white;
+    /* background: linear-gradient(to bottom, #f8f9fa, #7de2ef); */
+    /* background: linear-gradient(to top, #4840a4, #000000); */
+    background-color: #0d0418;
+    /* background-color: #120225; */
+}
+.top
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-bottom: 10px;
+    margin-bottom: 5%;
+    border-bottom: 1px dashed gray;
+    /* border: 2px solid blue; */
+}
+.logo
+{
+    width: 30%;
+    height: 125px;
+    /* border: 2px solid green; */
+    overflow-y: hidden;
+
+}
+.contact
+{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    flex-direction: column;
+    line-height: 3vh;
+    /* border: 2px solid red; */
+}
+.address
+{
+    width: 30%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+span
+{
+    text-align: center;
+}
+.bottom
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bottom-left
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border: 2x solid red;
+}
+.bottom-left h1, .bottom-right h1{
+    color: black;
+    font-size: 24px;
+}
+.bottom-right
+{
+    border: 2x solid red;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ico
+{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+/* Styles for screens with a maximum width of 600 pixels */
+@media (max-width: 770px) {
+    .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 10px;
+        margin-bottom: 5%;
+        border-bottom: 1px dashed gray;
+        /* border: 2px solid blue; */
+    }
+    .address{
+        margin: 25px;
+    }
+    .contact
+    {
+        margin: 15px;
+    }
+    .mainlogoico
+    {
+        width: 230px;
+        translate: 0px -25px;
+    }
+
+  }
+  .mainlogoico
+  {
+    width: 230px;
+    /* border: 2px solid red; */
+    translate: 0px -55px;
+  }

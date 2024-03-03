@@ -1,0 +1,19 @@
+.abc
+{
+    background-color: rgb(255  , 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mains
+{
+    /* height: max-content !important; */
+    height: max-content !important;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid/ red; */
+    /* margin: 5px; */
+    /* background-color: aqua; */
+}
